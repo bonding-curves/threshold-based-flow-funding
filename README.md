@@ -11,6 +11,7 @@ This document serves as the master index and dashboard for the Threshold-Based F
 - **Google Drive Shared Folder (Core Docs):** [Access Here](https://drive.google.com/drive/folders/1nwjGwFz19LaBV1IPUQyx3Rq3yWTIlw4L)
 - **GitHub Repo (Technical Specs & Code):** [bonding-curves/threshold-based-flow-funding](https://github.com/bonding-curves/threshold-based-flow-funding)
 - **Shawn's TBFF Protocol Repo:** [LinuxIsCool/tbff-protocol](https://github.com/LinuxIsCool/tbff-protocol)
+- **Notion Board (Original Experiment Overview):** [Access Here](https://www.notion.so/mbrn/Threshold-Based-Flow-Funding-Experiment-Overview-V1-313301ffcaa080d4878fc0fad90c7c91?source=copy_link)
 - **Atlas Research Group:** [atlasresear.ch](https://atlasresear.ch/)
 - **Meeting Zoom Link:** us02web.zoom.us/j/2647994985
 
