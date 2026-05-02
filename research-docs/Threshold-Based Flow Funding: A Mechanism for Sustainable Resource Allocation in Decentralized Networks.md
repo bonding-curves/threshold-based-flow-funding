@@ -48,9 +48,7 @@ The initial distribution focuses on ensuring minimum thresholds are met where po
 1. Calculate the total minimum requirement: $M = \sum_{i \in N} \max(0, m_i - x_i)$
 2. If $F < M$, distribute funds proportionally based on minimum shortfall:
 
-   $$
-   x_i^{new} = x_i + \frac{\max(0, m_i - x_i)}{M} \cdot F
-   $$
+   $$x_i^{new} = x_i + \frac{\max(0, m_i - x_i)}{M} \cdot F$$
 3. If $F \geq M$, first satisfy all minimum requirements:
 
    $$
