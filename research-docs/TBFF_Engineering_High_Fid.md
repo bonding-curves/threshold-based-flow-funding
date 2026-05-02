@@ -96,23 +96,27 @@ The mathematical mapping of the state update $x^+ = f(x,u)$.
 ```mermaid
 graph LR
     subgraph Input_Vector
-        x[x_t: State Vector]
+        X[x_t: State Vector]
     end
 
     subgraph Operators
+        direction TB
         M[m: Baseline Constraint]
         T[t: Saturation Constraint]
         A[A_T: Translocation Matrix]
     end
 
     subgraph Output_Vector
-        x_plus[x_t+1: Posterior State]
+        XP[x_t+1: Posterior State]
     end
 
-    x -->|max| M
-    M -->|min| T
-    T -->|Residual| A
-    A --> x_plus
+    X --> M
+    M --> T
+    T -- "Residual (x - t)" --> A
+    T -- "Saturated" --> XP
+    A --> XP
 
-    Note over Operators: x+ = min(x, t) + A_T * max(0, x - t)
+    style M fill:#f9f,stroke:#333
+    style T fill:#bbf,stroke:#333
+    style A fill:#dfd,stroke:#333
 ```
