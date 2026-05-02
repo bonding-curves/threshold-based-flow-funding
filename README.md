@@ -33,10 +33,10 @@ This document serves as the master index and dashboard for the Threshold-Based F
 ## 3. Operational Documents (Google Drive)
 *These documents are actively maintained in the Google Drive shared folder and are meant for all team members (technical and non-technical).*
 
-- 📄 **Requirements Doc.docx**
-  *Contains the generalized Requirements & Protocol template (Executive Summary, Personas, Flow Allocation rules, etc.).*
-
-- 📄 **Meeting Notes.docx**
+- 📄 **[Meeting Notes](https://docs.google.com/document/d/11RhzopGtE-ot6MtFBvsOujnOv8Ejb4NHVnupoGj9A7c/edit?usp=drive_link)**
   *Running logs of team meetings and decisions.*
+
+- 📄 **[Requirements Doc](https://docs.google.com/document/d/1yQ06_sZGZ_ZLORbuOJV5nPgpbSWWkhcIEWzMVO6IGZs/edit?usp=drive_link)**
+  *Contains the generalized Requirements & Protocol template (Executive Summary, Personas, Flow Allocation rules, etc.).*
 
 
